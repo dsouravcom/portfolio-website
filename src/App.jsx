@@ -5,6 +5,7 @@ import Home from "./pages/Home";
 import Projects from "./pages/Projects";
 import Links from "./pages/Links";
 import Contact from "./pages/Contact";
+import Tools from "./pages/Tools";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 
@@ -19,6 +20,7 @@ function App() {
         <Route path="/projects" element={<Projects />} />
         <Route path="/links" element={<Links />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/tools" element={<Tools />} />
       </Routes>
       <Footer />
     </BrowserRouter>

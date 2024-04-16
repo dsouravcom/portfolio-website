@@ -1,37 +1,46 @@
 import React from "react";
 
-const projects = [
+const tools = [
   {
-    title: "Daily Journal",
+    title: "Mail Sender Bot",
     description:
-      "A simple and secure journal app to write down your thoughts and feelings. It's like a diary, but better.",
+      "Effortlessly send files or messages to any email address. Share documents, images, or content seamlessly.",
     image:
-      "https://res.cloudinary.com/dzjujoqyi/image/upload/v1707309141/rojlekho.com.jpg",
-    demoLink: "https://app.rojlekho.com",
-    codeLink: "https://github.com/dsouravcom/rojlekho",
+      "https://res.cloudinary.com/dzjujoqyi/image/upload/v1698936046/mail-bot-preview_qz3or4.png",
+    demoLink: "https://mail.dsourav.com",
+    codeLink: "https://github.com/dsouravcom/mail-sender-bot",
   },
   {
-    title: "To Do App",
+    title: "Url expander",
     description:
-      "A simple and intuitive to-do app that helps you organize your tasks and stay on top of your daily activities.",
+      "Expand shortened URLs and get the original URL. Unshorten any URL with a single click.",
     image:
-      "https://res.cloudinary.com/dzjujoqyi/image/upload/v1713279651/s4kyodmz24trzn3geyv6.png",
-    demoLink: "https://todo.dsourav.com",
-    codeLink: "https://github.com/dsouravcom/todo-app",
+      "https://res.cloudinary.com/dzjujoqyi/image/upload/v1713280136/wryfaepgfulud7wltyie.png",
+    demoLink: "https://url.dsourav.com",
+    codeLink: "https://github.com/dsouravcom/url-expander",
+  },
+  {
+    title: "Insta Caption Extractor",
+    description:
+      "Extract captions from Instagram posts. Download captions in text format with a single click.",
+    image:
+      "https://res.cloudinary.com/dzjujoqyi/image/upload/v1713280136/ipekctvhrjhlk1uyezc8.png",
+    demoLink: "https://caption.dsourav.com",
+    codeLink: "https://github.com/dsouravcom/insta-caption-extractor",
   },
 ];
 
 const ProjectCard = ({ project }) => {
   return (
-    <div className="max-w-sm mb-7 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-300 dark:border-gray-700 text-gray-900 dark:text-gray-900">
+    <div className="max-w-[300px] mb-7 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-300 dark:border-gray-700 text-gray-900 dark:text-gray-900">
       <img
-        className="rounded-t-lg bg-contain"
+        className="rounded-t-lg bg-contain bg-center bg-no-repeat h-40 w-full"
         src={project.image}
         alt={project.title}
       />
 
       <div className="p-5">
-        <h5 className="mb-2 text-3xl font-bold font-mono tracking-tight ">
+        <h5 className="mb-2 text-xl font-bold font-mono tracking-tight ">
           {project.title}
         </h5>
 
@@ -87,14 +96,14 @@ const ProjectCard = ({ project }) => {
   );
 };
 
-function Projects() {
+function Tools() {
   return (
     <div className="bg-gray-100 dark:bg-gray-800 min-h-screen p-8">
       <h1 className="text-4xl mb-14 font-bold text-center text-gray-900 dark:text-gray-100">
-        My all Projects
+        My all Tools
       </h1>
-      <div className="grid grid-cols-1 gap-y-10 sm:grid-cols-2 md:grid-cols-3">
-        {projects.map((project, index) => (
+      <div className="grid grid-cols-1 gap-y-10 sm:grid-cols-2 md:grid-cols-4">
+        {tools.map((project, index) => (
           <ProjectCard key={index} project={project} />
         ))}
       </div>
@@ -102,4 +111,4 @@ function Projects() {
   );
 }
 
-export default Projects;
+export default Tools;

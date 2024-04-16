@@ -66,6 +66,18 @@ function Navbar() {
               </li>
               <li>
                 <Link
+                  to="/tools"
+                className={`block py-2 pl-3 pr-4 text-gray-800 rounded hover:bg-blue-700 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0  ${
+                  location.pathname === "/projects"
+                  ? "bg-blue-700 md:bg-transparent md:text-sky-400"
+                  : "bg-transparent" 
+              } dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-blue-700 dark:hover:text-white md:dark:hover:bg-transparent`}
+            >
+                  Tools
+                </Link>
+              </li>
+              <li>
+                <Link
                   to="/links"
                   className={`block py-2 pl-3 pr-4 text-gray-800 rounded hover:bg-blue-700 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0  ${
                     location.pathname === "/links"
