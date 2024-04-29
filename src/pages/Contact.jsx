@@ -43,8 +43,8 @@ function Contact() {
   return (
     <div>
       <section className="dark:bg-gray-800 text-gray-900 dark:text-gray-200 body-font relative font-roboto_slob font-bold">
-        <div className="container px-5 h-screen mx-auto flex sm:flex-nowrap flex-wrap">
-          <div className="lg:w-2/3 md:w-1/2 h-5/6 mt-8 bg-gray-300 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
+        <div className="container px-5 min-h-screen mx-auto flex sm:flex-nowrap flex-wrap">
+          <div className="lg:w-2/3 md:w-1/2 h-[600px] mt-8 bg-gray-300 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
             <iframe
               width="100%"
               height="100%"
@@ -80,7 +80,7 @@ function Contact() {
             <p className="leading-relaxed mb-5 ">
               Type your question here. I will try to answer as soon as possible.
             </p>
-            <form onSubmit={onSubmitHandle}>
+            <form onSubmit={onSubmitHandle} className="mb-4 sm:mb-0">
               <div className="relative mb-4">
                 <label htmlFor="name" className="leading-7 text-sm">
                   Name
