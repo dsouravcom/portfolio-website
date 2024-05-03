@@ -19,6 +19,15 @@ const projects = [
     demoLink: "https://todo.dsourav.com",
     codeLink: "https://github.com/dsouravcom/todo-app",
   },
+  {
+    title: "URL Shortener",
+    description:
+      "A URL shortener service that allows you to shorten long URLs into short for easy to share.",
+    image:
+      "https://res.cloudinary.com/dzjujoqyi/image/upload/v1714705431/fpw5eagsufsopfk53tbq.png",
+    demoLink: "https://www.minilink.live",
+    codeLink: "https://github.com/dsouravcom/url-shortner",
+  },
 ];
 
 const ProjectCard = ({ project }) => {
