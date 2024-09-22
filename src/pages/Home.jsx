@@ -13,7 +13,7 @@ function Home() {
                 Sourav Dutta
               </h1>
               <p className="mb-8 leading-relaxed font-roboto_slob">
-              I am a student of the Bankura Unnayani Institute of Engineering pursuing a B.Tech in Computer Science and Engineering. I am a web developer. I am self-motivated and enjoy learning new skills.
+              A Full-stack developer, i love creating web application those are helps me in my daily life. Sometime it helps other people as well. Checkout my projects section and tools section for more information. I am always open for new opportunities. Feel free to contact me.
               </p>
               {/* icons */}
               <div>
