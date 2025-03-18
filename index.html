@@ -27,5 +27,19 @@
     <!-- 100% privacy-first analytics -->
 <script async defer src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
 <noscript><img src="https://queue.simpleanalyticscdn.com/noscript.gif" alt="" referrerpolicy="no-referrer-when-downgrade" /></noscript>
-  </body>
+  <!-- site behaviour analytics -->
+  <script type="text/javascript">
+    (
+      function() {
+        var sbSiteSecret = '10588f43-4066-4393-9254-477e2e0b34cf';
+        window.sitebehaviourTrackingSecret = sbSiteSecret;
+        var scriptElement = document.createElement('script');
+        scriptElement.async = true;
+        scriptElement.id = 'site-behaviour-script-v2';
+        scriptElement.src = 'https://sitebehaviour-cdn.fra1.cdn.digitaloceanspaces.com/index.min.js?sitebehaviour-secret=' + sbSiteSecret;
+        document.head.appendChild(scriptElement); 
+      }
+    )()
+</script>
+</body>
 </html>
