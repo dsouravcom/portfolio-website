@@ -1,5 +1,5 @@
-import React, { useState } from "react";
 import axios from "axios";
+import React, { useState } from "react";
 import Swal from "sweetalert2";
 
 function Contact() {
@@ -46,11 +46,13 @@ function Contact() {
         <div className="container px-5 min-h-screen mx-auto flex sm:flex-nowrap flex-wrap">
           <div className="lg:w-2/3 md:w-1/2 h-[600px] mt-8 bg-gray-300 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
             <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d117925.35231274608!2d88.2649509640967!3d22.53540637451441!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f882db4908f667%3A0x43e330e68f6c2cbc!2sKolkata%2C%20West%20Bengal!5e0!3m2!1sen!2sin!4v1744357668546!5m2!1sen!2sin"
               width="100%"
               height="100%"
-              className="absolute inset-0"
               title="map"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29331.06097488066!2d87.04244626113761!3d23.229159707857008!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f7a58c5fc2b411%3A0xfdbd0b45c0b4aa70!2sBankura%2C%20West%20Bengal!5e0!3m2!1sen!2sin!4v1693398844360!5m2!1sen!2sin"
+              className="absolute inset-0"
+              allowfullscreen=""
+              loading="lazy"
             ></iframe>
 
             <div className="bg-white dark:bg-gray-800 rounded-lg relative flex flex-wrap py-6 shadow-md">
@@ -58,7 +60,7 @@ function Contact() {
                 <h2 className="title-font font-bold font-serif tracking-widest">
                   ADDRESS
                 </h2>
-                <p className="mt-1">Bankura, West Bengal, India</p>
+                <p className="mt-1">Kolkata, West Bengal, India</p>
               </div>
               <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
                 <h2 className="title-font font-bold font-serif tracking-widest">

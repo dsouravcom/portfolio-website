@@ -28,7 +28,7 @@ function Links() {
         <div className="flex  text-3xl gap-5 my-5 justify-center items-center">
           <a
             className="hover:scale-110 transition duration-150 hover:text-[#2867b2] cursor-pointc"
-            href="https://www.linkedin.com/in/sourav-dutta-dev/"
+            href="https://www.linkedin.com/in/souravdotdev/"
             target="_blank"
             rel="noopener"
           >
@@ -37,7 +37,7 @@ function Links() {
           </a>
           <a
             className="hover:scale-110 transition duration-150 pt-2 hover:text-[#39a9d9] cursor-pointc"
-            href="https://twitter.com/souravd23"
+            href="https://x.com/souravdotdev"
             target="_blank"
             rel="noopener"
           >
@@ -151,7 +151,7 @@ function Links() {
           </a>
           <a
             className=" w-full text-center bg-[#525151] hover:bg-[#444444] rounded-[30px] hover:scale-[102%] transition duration-300 cursor-pointc"
-            href="https://caption.dsourav.com"
+            href="https://caption.pocketutils.com"
             target="_blank"
             rel="noopener"
           >

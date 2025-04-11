@@ -24,8 +24,8 @@ const projects = [
     description:
       "A URL shortener service that allows you to shorten long URLs into short for easy to share.",
     image:
-      "https://res.cloudinary.com/dzjujoqyi/image/upload/v1714705431/fpw5eagsufsopfk53tbq.png",
-    demoLink: "https://www.minilink.live",
+      "https://res.cloudinary.com/dzjujoqyi/image/upload/v1744299992/sorti-meta-image.png",
+    demoLink: "https://www.sorti.in",
     codeLink: "https://github.com/dsouravcom/url-shortner",
   },
 ];
