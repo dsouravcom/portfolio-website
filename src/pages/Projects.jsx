@@ -28,6 +28,15 @@ const projects = [
     demoLink: "https://www.sorti.in",
     codeLink: "https://github.com/dsouravcom/url-shortner",
   },
+  {
+    title: "Intro Skipper Extension",
+    description:
+      "This extension is specifically build for autometically skip intro in multiple Streaming services..",
+    image:
+      "https://res.cloudinary.com/dzjujoqyi/image/upload/v1751618667/intro-skipper.png",
+    demoLink: "https://introskipper.dsourav.com",
+    codeLink: "https://github.com/dsouravcom/intro-skipper-ext",
+  },
 ];
 
 const ProjectCard = ({ project }) => {
