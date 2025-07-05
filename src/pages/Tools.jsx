@@ -24,8 +24,8 @@ const tools = [
     description:
       "Extract captions from Instagram posts. Download captions in text format with a single click.",
     image:
-      "https://caption.pocketutils.com/og-image.webp",
-    demoLink: "https://caption.pocketutils.com",
+      "https://caption.dsourav.com/og-image.webp",
+    demoLink: "https://caption.dsourav.com",
     codeLink: "https://github.com/dsouravcom/insta-caption-extractor",
   },
 ];
